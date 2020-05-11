@@ -11,5 +11,5 @@ app.use(bodyParser.urlencoded({extended: false}));//para entender quando receber
 
 
 require('./controllers/authController')(app);
-
+require('./controllers/projectController')(app);
 app.listen(3000);
